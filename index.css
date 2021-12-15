@@ -1,0 +1,568 @@
+:root{
+    --sidebgColor : rgb(8, 63, 8);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body a:hover {
+    color: green;
+}
+header{
+    display: flex;
+    margin-left: 50px;
+}
+header img {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.header_left {
+    margin-left: 20px;
+    margin-top: 20px; 
+    margin-right: 400px;
+}
+header a {
+    margin: 10px 30px 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+.header_input{
+    border-radius: 25px;
+    padding: 5px 25px 5px 35px !important; 
+    width: 200px;
+    outline: none;
+    margin:10px 10px 10px -30px;
+    box-sizing: border-box;
+    border: 0.2px solid rgba(0, 0, 0, 0.26);
+}
+#search_icon{ 
+    z-index: 1;
+    margin-top: 25px;
+    color: green;
+    display: block;
+}
+.header_search{
+    display: flex;
+}
+.register_btn{
+    border: 2px solid green;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    padding: 8px 25px;
+    box-sizing: border-box;
+}
+.register_btn:hover{
+    color: white;
+    background-color: rgb(3, 82, 3);
+    border-color: rgb(3, 82, 3);
+}
+.lnk{
+    margin-top: 20px;
+}
+.top_icon{
+    visibility: hidden;
+}
+.sidebar, .exit_bar, .linkz, .register_linkz, .side_input{
+    display: none;
+}
+.set_of_links{
+    margin-left: 100px;
+}
+.head_links{
+    margin: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+hr{
+    opacity: 0.2;
+}
+h1,p{
+    text-align: center;
+}
+.reg_link{
+    text-align: center;
+}
+.reg_link_a{
+    text-decoration: none;
+    color: green !important;
+    margin-bottom: 50px;
+}
+.reg_link_a:hover{
+    text-decoration: underline;
+    color: var(--green);
+}
+.reg_link_icon{
+    color: green;
+}
+.aside_search{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.aside_input{
+    border-radius: 25px;
+    padding: 5px 25px 5px 35px;
+    width: 200px;
+    outline: none;
+    border: 0.2px solid black;
+}
+.aside_search_icon{
+    position: relative;
+    left: 25px;
+    top: 9px;
+    color: green;
+}
+.aside_link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+}
+.aside_links{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.image{
+    margin: 10px 5px 2px 5px;
+}
+.image:hover, .image2:hover, .image1:hover, .image3:hover{
+    opacity: 0.4;
+}
+.images_1{
+    padding: 10px;
+    margin-top: 50px;
+}
+p{
+    margin: 2px 45px 30px 20px;
+    font-size: 13px;
+}
+.images_1_text, .images_2_text, .images_3_text{
+    display: flex;
+}
+.images_1, .images_2, .images_3{
+    display: block;
+    position: relative;
+    margin: 10px 5px;
+}
+.images_1_text{
+    margin-left: 15px;
+}
+#mid_page{
+    display: flex;
+    margin: 100px 10px 0px 0px;
+    background-color: rgb(214, 209, 209);
+    width: 100%;
+    padding: 50px 150px;
+    box-sizing: border-box;
+}
+.first_row, .second_row, .third_row{
+    text-align: center;
+}
+#last_page{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+#last_page a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+#last_page a:hover{
+    color: green;
+}
+.footer_first_row{
+    width: 400px;
+    margin-left: 100px;
+    line-height: 30px;
+}
+.footer_first_row p{
+    text-align: left;
+    font-size: 1em;
+    margin-top: -5px;
+}
+#last_page h5{
+    color: green;
+    margin: 60px 40px 50px 50px;
+}
+#last_page hr{
+    color: green;
+    position: relative;
+    top: 10px;
+}
+.footer_second_row, .footer_third_row, .footer_fourth_row, .footer_fifth_row {
+    text-align: left;
+    display: block;
+    width: 300px;
+}
+.body_page{
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+.body_page p{
+    font-size: 1.5em;
+    margin: 30px 0px 20px -90px;
+    position: relative;
+    left: -120px;
+}
+.body_form{
+    background-color: rgba(228, 248, 228, 0.548);
+    width: 450px;
+    height: 290px;
+    position: relative;
+    left: -140px;
+}
+.main_form{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.form_username, .form_pword{
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    padding: 6px 8px;
+}
+.form_submitbtn{
+    margin-top: 10px;
+    width: 85%;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.part_form{
+    display: flex;
+    justify-content: space-between;
+}
+.body_form a{
+    text-decoration: none;
+    position: relative;
+    left: -60px;
+}
+.form_submitbtn:hover{
+    background-color: white;
+    color: green;
+    box-shadow: 0px 0px 10px grey;
+}
+.not_reg{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    left: -150px;
+    border: 1px solid green;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+.not_reg h5{
+    margin: 0px 10px 0px 55px;
+}
+.not_reg a{
+    text-decoration: none;
+}
+.not_reg a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.not_reg:hover{
+    background-color: green;
+    color: white;
+}
+.contact_image{
+    margin: 20px 30px 20px 30px;
+    filter: brightness(40%);
+}
+.contact_page{
+    position: relative;
+}
+.contact_image_text{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: white;
+    width: 500px;
+}
+.cit_1{
+    font-size: 3em;
+    text-align: left;
+}
+.cit_2{
+    text-align: left;
+}
+.contact_mid_page{
+    margin-left: 600px;
+}
+.cmp_1{
+    font-size: 2em !important;
+}
+.contact_mid_page p{
+    font-size: 16px;
+    text-align: left;
+}
+.phone{
+    display: flex;
+    position: relative;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.phone i{
+    font-size: 2em;
+    color: green;
+}
+.contact_mid_page a{
+    text-decoration: none;
+    color: green;
+}
+.contact_mid_page a:hover{
+    text-decoration: underline;
+}
+.our_offices{
+    margin-top: 50px;
+}
+.offices_area .our_offices{
+    font-size: 2em;
+}
+.area_1, .area_2{
+    display: flex;
+    width: 500px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 30px;
+}
+.area_1 p, .area_2 p{
+    width: 300px;
+    text-align: left;
+}
+.area_1_1{
+    margin-left: -350px;
+    margin-top: 30px;
+    text-align: left;
+}
+.area_2{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    :root{
+        --green: rgba(11, 148, 11, 0.89);
+    }
+    .header_left, .header_search, .login_link, .register_btn{
+        visibility: hidden;
+    }
+    img{
+        position: absolute;
+        left: 5px;
+        top: 7px;
+    }
+    .top_icon{
+        visibility: visible;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        font-size: 2em;
+        color: var(--sidebgColor);
+        display: inline-block;
+    }
+    .top_icon:hover{
+        color: var(--green);
+    }
+    .sidebar{
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: var(--sidebgColor);
+        color: rgba(255, 255, 255, 0.849);
+        z-index: 1;
+        height: 100%;
+        transition: display 1s;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        transition: 0.5s;
+    }
+    .linkz{
+        display: block;
+        margin: 50px 20px;
+    }
+    .register_linkz{
+        display: block;
+        margin: 50px 20px 20px 20px;
+        border: 0.5px solid rgba(0, 70, 0, 0.89);
+        background-color: rgba(0, 70, 0, 0.89);
+        box-sizing: border-box;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-align: center;
+
+    }
+    .exit_bar{
+     display: block;
+     font-size: 2em;
+    }
+    .exit_bar:hover{
+        color: rgba(255, 255, 255, 0.774);
+    }
+    .side_input{
+        margin-left: 25px !important;
+        padding: 60px 40px;
+        border-radius: 25px;
+        padding: 5px 25px 5px 35px !important; 
+        width: 200px;
+        outline: none;
+        margin:10px 10px 10px -30px;
+        box-sizing: border-box;
+        border: 0.2px solid rgba(0, 0, 0, 0.26);
+        display: block;
+    }
+    #search_icon{
+        position: relative;
+        left: 30px;
+        top: 35px;
+        color: var(--green);
+    }
+    .set_of_links{
+        margin: 10px;
+    }
+    .head_links{
+        margin: 10px 10px;
+        display: inline-block;
+        background-color: grey;
+        padding: 5px 10px;
+        color: white;
+        box-shadow: 0px 0px 10px black;
+    }
+    .aside_links{
+        margin-left: 10px;
+    }
+    .aside_link{
+        display: inline-block;
+        margin: 6px 6px;
+        background-color: grey;
+        color: white;
+        padding: 6px 6px;
+        box-shadow: 0px 0px 10px black;
+    }
+    h4{
+        margin-left: 10px;
+    }
+    .imgs_1{
+        display: flex;
+    }
+    .aside_input{
+        width: 100%;
+    }
+    .image{
+        display: none;
+    }
+    .image1, .image2, .image3{
+        width: 100%;
+        display: block;
+        height: 350px !important;
+    }
+    .images_1, .images_2, .images_3{
+        margin: 5px;
+        height: 350px;
+    }
+    .container p{
+        display: none;
+    }
+    #mid_page{
+        width: 100%;
+        font-size: 12px;
+    }
+    .first_row{
+        margin-left: -100px;
+        max-width: 300px;
+    }
+    .first_row p{
+        width: 100px;
+        line-height: 40px;
+        text-align: left;
+    }
+    .first_row h3{
+        width: 100px;
+    }
+
+    .second_row{
+        max-width: 300px;
+    }
+    .second_row p{
+        width: 100px;
+        text-align: left;
+        line-height: 40px;
+    }
+    .third_row{
+        max-width: 300px;
+    }
+    .third_row p{
+        width: 100px;
+        line-height: 40px;
+        text-align: left;
+        margin-right: 0px;
+    }
+    #last_page{
+        width: 100%;
+        font-size: 14px;
+    }
+    #last_page a{
+        margin-left: 25px;
+    }
+    .footer_first_row, .footer_fifth_row{
+        display: none;
+    }
+    #last_page_h5{
+        margin: 60px 0px 10px -100px;
+    }
+    .body_page{
+        top: 20px;
+        left: 50%;
+        position: relative;
+        margin: 10px 0px 10p -40px;
+    }
+    .body_page p{
+        position: relative;
+        left: -50px;
+        margin: 50px 100px 10px -10px;
+    }
+    .header_img{
+        margin-left: 0px;
+    }
+    .contact_mid_page{
+        position: relative;
+        left: -600px;
+        top: 50px;
+    }
+    .offices_area{
+        position: relative;
+        left: 20px;
+        margin-bottom: 150px;
+    }
+    .offices_area img{
+        display: none;
+    }
+    img{
+        margin-left: -50px;
+    }
+    .phone{
+        text-align: left;
+    }
+    .contact_image{
+        position: relative;
+        left: -25px;
+        width: 95%;
+    }
+
+}
